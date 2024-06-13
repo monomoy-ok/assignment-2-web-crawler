@@ -45,8 +45,8 @@ def save_to_csv(data, filename='output.csv'):
         print("No data to save.")
 
 def main(parameters):
-    api_key = "AIzaSyD6XOxGcWRitKkHmobmr-12LTzU5ZKb9sM"
-    cse_id = "a386a77aee1214899"
+    api_key = "CSE_API_KEY"
+    cse_id = "CSE_ID"
     
     queries = generate_queries(parameters)
     all_results = []
