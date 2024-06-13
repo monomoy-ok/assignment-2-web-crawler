@@ -1,7 +1,3 @@
-Creating a README file is essential for documenting your Python script and providing necessary information for users or collaborators. Below is a structured README example for your web crawler script (`web_crawler.py`):
-
----
-
 # Web Crawler for Google Search Results
 
 This Python script performs web crawling using the Google Custom Search API to fetch search results based on specified parameters. It retrieves titles and URLs from search results and saves them into a CSV file.
@@ -15,8 +11,8 @@ This Python script performs web crawling using the Google Custom Search API to f
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your/repository.git
-   cd repository-name
+   git clone https://github.com/monomoy-ok/assignment-2-web-crawler.git
+   cd assignment-2-web-crawler
    ```
 
 2. Install dependencies:
@@ -28,7 +24,7 @@ This Python script performs web crawling using the Google Custom Search API to f
 
 ### Configuring Input
 
-Modify the `input_json` variable in `web_crawler.py` to specify your search parameters:
+Modify the `input_json` variable in `app.py` to specify your search parameters:
 
 ```python
 input_json = '''
@@ -43,10 +39,10 @@ input_json = '''
 
 ### Running the Script
 
-Run the script `web_crawler.py`:
+Run the script `app.py`:
 
 ```bash
-python web_crawler.py
+python app.py
 ```
 
 ### Output
@@ -55,11 +51,8 @@ The script will fetch search results from Google based on the provided parameter
 
 ## Script Structure
 
-- **`web_crawler.py`**: Main script file containing functions for querying Google Search API (`search_google`), parsing results (`parse_search_results`), generating queries (`generate_queries`), and saving results to CSV (`save_to_csv`).
+- **`app.py`**: Main script file containing functions for querying Google Search API (`search_google`), parsing results (`parse_search_results`), generating queries (`generate_queries`), and saving results to CSV (`save_to_csv`).
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
